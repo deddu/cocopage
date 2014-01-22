@@ -1,0 +1,8 @@
+{
+  "name": "skelesass",
+  "version": "0.0.0",
+  "dependencies": {
+    "font-awesome": "~4.0.3"
+  },
+  "devDependencies": {}
+}

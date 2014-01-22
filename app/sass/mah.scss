@@ -1,0 +1,40 @@
+@import "compass";
+@import "compass/css3/transform";
+
+$myblue : blue;
+
+
+.transition-example {
+  width: 15px;
+  height: 15px;
+  padding:15px;
+  background: red;
+  float: left;
+  @include border-radius(10px);
+  margin: 20px;
+}
+
+.box{
+  @include transition-property(scale);
+  @include transition-duration(1s);
+  &#box1{
+    background: yellowgreen
+  }
+  &#box2{
+    background: #2b81af
+  }
+  i{
+    color:white;
+  }
+}
+
+.box:hover{
+    @include scale(1.5)
+  }
+
+body{
+  background-image: url("../images/co.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}

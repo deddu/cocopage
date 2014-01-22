@@ -1,0 +1,8 @@
+temp
+dist
+node_modules
+.idea
+.sass-cache
+.DS_Store
+app/components
+test
